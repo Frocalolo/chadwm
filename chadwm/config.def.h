@@ -147,7 +147,7 @@ static const char *rofi_powercmd[]  	= { "/home/calixae/.config/rofi/powermenu/t
 static const char *rofi_wincmd[]  	= { "/home/calixae/.config/rofi/applets/bin/windows.sh", NULL };
 
 /* commands */
-static Key keys[] = {
+static const Key keys[] = {
     /* modifier                         key         function        argument */
 
     // brightness and audio 
