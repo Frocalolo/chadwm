@@ -26,5 +26,5 @@ exec copyq &
 wmname "LG3D"
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-~/.config/chadwm/scripts/bar.sh &
-while type dwm >/dev/null; do dwm && continue || break; done
+dash ~/.config/chadwm/scripts/bar.sh &
+while type chadwm >/dev/null; do chadwm && continue || break; done
